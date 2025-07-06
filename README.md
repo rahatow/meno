@@ -1,7 +1,6 @@
 # Menu OCR Example
 
-This project contains a simple script to extract menu items from a photo.
-It uses Tesseract OCR via `pytesseract` and stores results in an SQLite database.
+This project contains a simple script to extract menu items from a photo. It uses Tesseract OCR via `pytesseract` and stores results in an SQLite database.
 
 ## Requirements
 
@@ -13,6 +12,13 @@ On Debian/Ubuntu Tesseract can be installed with:
 
 ```bash
 sudo apt-get install tesseract-ocr
+sudo apt-get install tesseract-ocr-rus  # add languages as needed
+```
+
+Verify the installation with:
+
+```bash
+tesseract --version
 ```
 
 Then install Python dependencies:
